@@ -478,7 +478,7 @@ positiveDiff date1 date2 multiplier =
             propogateCarry minuteDiff minuteCarry 60
 
         ( hourX, dayCarry ) =
-            propogateCarry hourDiff hourCarry 60
+            propogateCarry hourDiff hourCarry 24
 
         -- if dayDiff + dayCarry is negative
         --    then add days in date1 month to make dayDiff positive
